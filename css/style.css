@@ -318,11 +318,25 @@ h6 {
 
 .burger__list {
   padding: 100px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .burger__list li {
   list-style: none;
-  margin: 25px 0px 0px 110px;
+  margin: 25px 0px 0px 0px;
 }
 
 .burger__link {
@@ -331,6 +345,15 @@ h6 {
   font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.burger__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .singup__logo {
